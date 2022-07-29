@@ -1,0 +1,429 @@
+body{
+  background: #e2dadb;
+}
+ /*------------------header---------------------*/
+ul{
+  background-color: #386fa4;
+  width: auto;
+  height: 200px;
+  display: block;
+}
+
+li{
+  float: left;
+  display: block;
+}
+
+
+.search-container {
+  width: 30%;
+}
+
+.search-container input[type=text] {
+  padding: 8px;
+  width: 75%;
+  margin-top: 150px;
+  font-size: 17px;
+  border: none;
+  cursor:pointer;
+}
+
+.search-container button {
+  float:none;
+  padding: 8px ;
+  background: #13315c;
+  color: white;
+  font-size: 17px;
+  border: none;
+  transition: background-color .2s ease-in-out, transform .2s ease-out;
+}
+
+.search-container button:hover {
+  color: black;
+  background-color:#ccc;
+  transform:rotate(360deg);
+
+}
+li.home{
+   width: 25%;
+   height: 100px;
+
+
+ }
+ li a img{
+   width:250px;
+   height: 145px;
+   margin: 30px 20%;
+   cursor: url('../images/plane1.png'),auto;
+ }
+li[id^="menu"] {
+   color:#13315c;
+   width: 15%;
+   font-weight: bold;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 150px;
+ }
+ .menuhover:hover{
+    color: white;
+    background-color:#13315c;
+    padding:0 80px;
+}
+
+ #menu-language:hover{
+   color: white;
+   background-color:#13315c;
+ }
+ #dropdown{
+   display: none;
+   position: absolute;
+   list-style: none;
+   background-color:#7995bd;
+   width: 160px;
+ }
+ #menu-language:hover #dropdown{
+   display: block;
+   border-style:inset;
+ }
+
+
+ #dropdown li a{
+   color: #13315c;
+   font-weight: normal;
+   font-size: 18px;
+   white-space: pre;
+   padding: 3px;
+
+ }
+ #dropdown li {
+   padding: 10px;
+ }
+
+
+a {
+   text-decoration: none;
+   color:#13315c;
+ }
+
+
+ /*------------------footer---------------------*/
+
+footer{
+  background-color: #386fa4;
+  color:#13315c;
+  font-weight: bold;
+  font-size: 20px;
+  width: auto;
+  height: 30px;
+  padding: 15px 40px;
+  clear: both;
+}
+#contact:hover{
+  color: white;
+  background-color:#13315c;
+}
+
+a.fa {
+  padding: 5px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  margin: 0 20px;
+}
+a.fa:hover {
+  background: #ccc;
+}
+a.fa-facebook {
+  background: white;
+  color: #3B5998;
+}
+a.fa-twitter {
+  background: white;
+  color: #55ACEE;
+}
+.Copyright{
+  font-size: 12px;
+  font-weight: normal;
+  float: right;
+  margin-right: 28%;
+}
+
+ /*------------------content for homepage---------------------*/
+.introduction{
+  margin: 0 40px;
+  width: auto;
+  height: 100px;
+  clear:both;
+
+}
+.columns{
+  width:33.33%;
+  height: auto;
+  float: left;
+}
+h3{
+  color: #13315c;
+}
+.columns a img{
+  cursor: url('../images/plane1.png'),auto;
+}
+.round-circle{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 30px 130px;
+
+}
+div.columns p{
+  margin: 20px 100px;
+}
+div.columns p::first-letter {
+  font: 26px bold;
+}
+ /*------------------content for taipei webpage---------------------*/
+ #webwrapper{
+   width: 80%;
+   margin: 0 auto;
+ }
+ h2{
+   color: #13315c;
+ }
+ h2 span::before{
+   content:url('../images/taiwan1.svg.png');
+ }
+ h2 span::after{
+   content:url('../images/taiwan1.svg.png');
+ }
+ p {
+      color:#13315c;
+      font-size-adjust: auto;
+      line-height: 1.8em;
+  }
+
+ #videoparagraph {
+   width: 27%;
+   float: right;
+   border: 4px double #e2dadb;
+   padding: 0 4px;
+   margin: 0 0 0 6px;
+   background-color:rgba(255, 255, 250,50%);
+ }
+ @font-face{
+   font-family: Alexbrush;
+   src:url(./font/AlexBrush-Regular.ttf);
+
+ }
+#videoparagraph p{
+    color:#13315c;
+    font-family:serif;
+    font-size: 17px;
+    padding:5px;
+    line-height: 1.3em;
+ }
+.population{
+  width: 96%;
+  margin: 60px 0;
+  background-color:rgba(255, 255, 250,50%);
+  padding:1% 2%;
+ }
+.weather{
+   background-color:rgba(255, 255, 250,50%);
+   width: 96%;
+   padding: 1% 2%;
+}
+table {
+  border: 3px solid black;
+  background-color: white;
+
+}
+th,td{
+  background-color: lightblue;
+  text-align: center;
+  color: #13315c;
+  border: 3px solid black;
+  padding: 5px 20px;
+}
+th{
+  background-color:#eef4ed;
+}
+
+#food{
+  margin: 60px 0;
+}
+
+.container {
+  display:block;
+  width: 100%;
+  margin: 2% auto;
+  height: 600px;
+  background-color:rgba(255, 255, 250,50%);
+
+}
+div.foodcolumns{
+  width: 100%;
+  margin: 20px;
+}
+
+.box {
+  width:15%;
+  height:15%;
+  overflow: hidden;
+  float: left;
+  margin: 3% 2% 0;
+  background-color: white;
+  box-shadow:5px 5px 10px 2px #888888;
+  transition: .2s;
+  transform-origin: 50% 50%;
+}
+
+.box > img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: .2s;
+  transform-origin: 50% 50%;
+}
+
+.box > span {
+  font-size: 2vh;
+  display: block;
+  text-align: center;
+  height: 5vh;
+  line-height: 2.6;
+  color: #13315c;
+  font-weight: bold;
+}
+
+.box:hover {
+  transform: scale(2);
+  transform-origin: 50% 50%;
+}
+.box:hover > img {
+  transform: scale(1);
+  transform-origin:50% 50%;
+}
+
+
+a.source{
+  color:#13315c;
+  font-family: fantasy;
+}
+.transit{
+  background-color:rgba(255, 255, 250,50%);
+  margin: 0 0 50px;
+
+}
+.transit div{
+  display: inline-block;
+  width: 30%;
+  margin: 30px 0;
+}
+.metroimage img{
+  width: 100%;
+  height:300px;
+}
+.metroimage img:hover{
+  width: 100%;
+  height:100%;
+}
+.metroimage:hover{
+  transform: scale(2);
+  transform-origin:0 50%;
+}
+.googlemap iframe{
+  width:100%;
+}
+.information{
+  float: left;
+  height: 240px;
+  padding: 30px;
+  margin:  0 0;
+  font-size: 18px;
+}
+
+
+/*------------------content for contactform webpage---------------------*/
+#form{
+  width: 480px;
+  height: 550px;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 5px 5px 10px 2px #888888;
+}
+
+form table{
+  border: none;
+}
+form td{
+  border: none;
+  background-color: white;
+  font-size:11px ;
+  float: left;
+}
+#form input{
+  background-color: lightgray;
+}
+textarea{
+  background-color: lightgray;
+}
+select{
+  float: left;
+}
+#form p{
+  color: #13315c;
+  margin-left: 20px;
+  font-size: 28px;
+}
+#form input.button{
+  background-color: #13315c;
+  color: white;
+  float: left;
+  margin-top: 10px;
+}
+
+#form div{
+  width: 50%;
+  float: left;
+  margin: 0 0;
+}
+
+#envelope{
+  position: relative;
+  left:-70px;
+  top:20px;
+  animation: envelope 2s ease-out infinite;
+  transform-origin: 0 0;
+}
+#envelope:hover {
+  animation-play-state: paused;
+}
+
+@keyframes envelope {
+  0%{
+    left:-70px;
+    transform: rotate(0deg);
+
+  }
+  100%{
+    left:180px;
+    transform: rotate(360deg);
+  }
+}
+/*------------------content for Secret webpage---------------------*/
+div.winner{
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  box-shadow:5px 5px 10px 2px #888888;
+  margin: 30px auto;
+  padding: 20px;
+  background-image:url('../images/bird.jpg');
+  background-size: cover;
+  color: white;
+  font-family: fantasy;
+  font-size: 25px;
+}
+audio{
+  margin: 0 35% 3%;
+}

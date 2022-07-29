@@ -1,0 +1,102 @@
+<!--
+Developer:chien yun
+Date: Oct 14 ,2019
+Version:1.1
+Description: contact form of travelbird website
+  -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr"/>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Travel Bird</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <ul>
+      <li class="search-container">
+        <form action="action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </li>
+      <li class="home">
+        <a href="index.html">
+        <img src="./images/travelbird_02.png" alt="work on it">
+        </a>
+      </li>
+      <li id="menu-flights">
+        <a target=_block href="https://www.skyscanner.ca" class=menuhover>Flights</a></li>
+      <li id="menu-hotels">
+        <a target=_block href="https://www.agoda.com" class=menuhover>Hotels </a></li>
+      <li id="menu-language"> Language
+        <ul id="dropdown">
+          <li><a href="#">English</a></li>
+          <li><a href="#">French</a></li>
+          <li><a href="#">Spanish</a></li>
+          <li><a href="#">Chinese</a></li>
+        </ul>
+      </li>
+      <ul>
+
+    </header>
+    <div id="form">
+      <div>
+        <p>Contact Us</p>
+      </div>
+      <div>
+          <a href="secret.html"><img id="envelope" src="./images/Envelope1.png" alt="repairing"/></a>
+      </div>
+
+      <form class="" action="contact.js" method="post">
+        <table>
+          <tr>
+            <td><input type="text" required size="30" maxlength="20" name="firstname" placeholder="Name"/></td>
+            <td><input type="email" required size="30" maxlength="50" name="email" placeholder="Email"/></td>
+          </tr>
+          <tr>
+            <td><input type="text" required size="30" maxlength="20" name="phonenumber" placeholder="Phone Number"/></td>
+            <td><input type="checkbox" name="lang" value="eng" checked="checked"/>English
+                <input type="checkbox" name="lang" value="fre"/> French
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <select class="province" name="province">
+                <option value="BC">British Columbia</option>
+                <option value="AB">Alberta</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="MB">Manitoba</option>
+                <option value="ON">Ontario</option>
+                <option value="QC">Quebec</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="NFLD">Newfoundland and Labrador</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <textarea rows="18" cols="68" placeholder="Message"></textarea><br/>
+              <span><input class="button" type="submit" value="Submit"/></span>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <footer>
+      <a href="contactform.html" id="contact">Contact Us</a>
+      <a href="mailto:mikoyun@gmail.com.?Subject=Hello%20again"><i class="fa fa-envelope"></i></a>
+      <a target=_block href="https://www.facebook.com/trivagoCA/" class="fa fa-facebook"></a>
+      <a target=_block href="https://twitter.com/trivago" class="fa fa-twitter"></a>
+      <div class="Copyright">
+        Copyright 2019 travelbird | All rights reserved.
+      </div>
+
+    </footer>
+
+  </body>
+</html>

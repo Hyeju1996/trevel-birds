@@ -1,0 +1,214 @@
+body{
+  background: #e2dadb;
+  margin:0 auto;
+
+
+}
+#content{
+  background-image: url('../images/bfb.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+#content img{
+  width: 400px;
+  height: 200px;
+
+}
+
+p{
+  font-style: italic;
+  text:bold;
+  color:White;
+}
+ul{
+  background-color: #386fa4;
+  width: auto;
+  height: 200px;
+  display: block;
+}
+
+li{
+  float: left;
+  display: block;
+}
+
+
+iframe{
+  float: right;
+  width: 30%;
+  height: 500px;
+  border-color: blue;
+
+}
+.search-container {
+  width: 30%;
+}
+
+.search-container input[type=text] {
+  padding: 8px;
+  width: 75%;
+  margin-top: 150px;
+  font-size: 17px;
+  border: none;
+  cursor:pointer;
+}
+
+.search-container button {
+  float:none;
+  padding: 8px ;
+  background: #13315c;
+  color: white;
+  font-size: 17px;
+  border: none;
+
+}
+
+.search-container button:hover {
+  background: #ccc;
+
+}
+    li.home{
+       width: 25%;
+       height: 100px;
+
+
+ }
+ li a img{
+   width:250px;
+   height: 145px;
+   margin: 30px 20%;
+   cursor: url('../images/plane1.png'),auto;
+ }
+li[id^="menu"] {
+   color:#13315c;
+   width: 15%;
+   font-weight: bold;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 150px;
+ }
+
+
+ #menu-language:hover{
+   color: white;
+   background-color:#13315c;
+ }
+ #dropdown{
+   display: none;
+   position: absolute;
+   list-style: none;
+   background-color:#7995bd;
+   width: 160px;
+ }
+ #menu-language:hover #dropdown{
+   display: block;
+   border-style:inset;
+ }
+
+
+ #dropdown li a{
+   color: #13315c;
+   font-weight: normal;
+   font-size: 18px;
+   white-space: pre;
+   padding: 3px;
+
+ }
+ #dropdown li {
+   padding: 10px;
+ }
+
+.menuhover:hover{
+   color: white;
+   background-color:#13315c;
+ }
+
+a{
+   text-decoration: none;
+   color:#13315c;
+ }
+
+
+footer{
+  background-color: #386fa4;
+  color:#13315c;
+  font-weight: bold;
+  font-size: 20px;
+  width: auto;
+  height: 30px;
+  padding: 15px 40px;
+  clear: both;
+}
+#contact:hover{
+  color: white;
+  background-color:#13315c;
+}
+
+a.fa {
+  padding: 5px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  margin: 0 20px;
+}
+a.fa:hover {
+  background: #ccc;
+}
+a.fa-facebook {
+  background: white;
+  color: #3B5998;
+}
+a.fa-twitter {
+  background: white;
+  color: #55ACEE;
+}
+.Copyright{
+  font-size: 12px;
+  font-weight: normal;
+  float: right;
+  margin-right: 28%;
+}
+
+.introduction{
+  margin: 0 40px;
+  width: auto;
+  height: 100px;
+  clear:both;
+  color: BLue;
+
+}
+.introduction span{
+
+  font-size: 38px;
+  color: orange;
+  position: relative;
+  left: 300px;
+  top: 0;
+
+}
+.columns{
+  width:100px;
+  height:500px;
+  background-color:#7a8b99;
+  float:left;
+  text-align:center;
+  color:Orange;
+  font-weight:bold;
+  font-size:20px;
+
+  }
+
+
+.columns a img{
+  cursor: url('./images/plane1.png'),auto;
+}
+
+
+div.columns p{
+  margin: 20px 100px;
+}
+div.columns p:first-letter {
+  font: 26px bold;
+}
